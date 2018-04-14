@@ -86,7 +86,7 @@
     <Compile Include="CompMain.Designer.cs">
       <DependentUpon>CompMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Global.cs" />
+    <Compile Include="Global_ID.cs" />
     <Compile Include="ProblemView.cs">
       <SubType>UserControl</SubType>
     </Compile>

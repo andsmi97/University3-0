@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
         {
             cmd.CommandText = string.Format("insert into Проблема (ИД_компании, НазваниеПроблемы, НаправлениеПроблемы, ЦенаПроблемы," +
                 " ОписаниеПроблемы) values ('{0}', '{1}', '{2}', '{3}', '{4}')",
-                Global_Id.Comp_ID, textBox1.Text, textBox2.Text, textBox3.Text, richTextBox1.Text);
+                Global_ID.Comp_ID, textBox1.Text, textBox2.Text, textBox3.Text, richTextBox1.Text);
             cnn1.Open();
             cmd.ExecuteNonQuery();
             cnn1.Close();
