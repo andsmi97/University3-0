@@ -21,5 +21,12 @@ namespace WindowsFormsApp1
         {
             this.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CompMain DataSet = new CompMain();
+            DataSet.Show();
+            this.ParentForm.Visible = false;
+        }
     }
 }

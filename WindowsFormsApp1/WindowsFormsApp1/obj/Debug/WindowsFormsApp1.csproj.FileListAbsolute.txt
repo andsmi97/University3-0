@@ -67,7 +67,6 @@ D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Win
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
-D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddProblem.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddProblemSolution.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddTask.resources
@@ -85,7 +84,6 @@ D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Win
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Problem.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProblemList.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Registraition.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TasksList.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TaskView.resources
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
@@ -97,3 +95,4 @@ D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Win
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Hohoton\Uni_3-0\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache

@@ -126,7 +126,6 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface1.cs" />
     <Compile Include="LoginComp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -147,12 +146,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registraition.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Registraition.Designer.cs">
-      <DependentUpon>Registraition.cs</DependentUpon>
-    </Compile>
     <Compile Include="TasksList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -243,9 +236,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Registraition.resx">
-      <DependentUpon>Registraition.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="TasksList.resx">
       <DependentUpon>TasksList.cs</DependentUpon>
     </EmbeddedResource>

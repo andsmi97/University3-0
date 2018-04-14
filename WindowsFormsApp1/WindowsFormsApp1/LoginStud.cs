@@ -22,7 +22,6 @@ namespace WindowsFormsApp1
             StudMain DataSet = new StudMain();
             DataSet.Show();
             this.ParentForm.Visible = false;
-           // DataSet.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void button3_Click(object sender, EventArgs e)
