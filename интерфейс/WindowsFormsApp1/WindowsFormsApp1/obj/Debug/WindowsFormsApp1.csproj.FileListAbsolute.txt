@@ -1,0 +1,47 @@
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.az-Cyrl.resources
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Registraition.resources
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Alina Venskaya\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Registraition.resources
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.az-Cyrl.resources
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Registraition.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UserControl3.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.az-Cyrl.resources
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
+C:\Users\Alina\Desktop\интерфейс\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
