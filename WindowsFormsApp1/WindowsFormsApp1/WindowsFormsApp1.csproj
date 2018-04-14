@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Messaging" />
@@ -84,6 +85,8 @@
     <Compile Include="CompMain.Designer.cs">
       <DependentUpon>CompMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataBaseConnection.cs" />
+    <Compile Include="Gloal_ID.cs" />
     <Compile Include="ProblemView.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -183,6 +186,11 @@
     <Compile Include="Task.Designer.cs">
       <DependentUpon>Task.cs</DependentUpon>
     </Compile>
+    <Compile Include="Uni3DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Uni3DataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddProblem.resx">
       <DependentUpon>AddProblem.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,9 +278,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Uni3DataSet.xsc">
+      <DependentUpon>Uni3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Uni3DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Uni3DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Uni3DataSet.xss">
+      <DependentUpon>Uni3DataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
