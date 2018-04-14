@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DFFDB37-969F-4438-904C-7CA034D0FBFA}</ProjectGuid>
+    <ProjectGuid>{6D8CA033-BF94-41B9-A21B-F2165786977C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
     <AssemblyName>WindowsFormsApp1</AssemblyName>
@@ -34,6 +34,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,38 +48,219 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddProblem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddProblem.Designer.cs">
+      <DependentUpon>AddProblem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProblemSolution.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddProblemSolution.Designer.cs">
+      <DependentUpon>AddProblemSolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddTask.Designer.cs">
+      <DependentUpon>AddTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTaskSolution.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddTaskSolution.Designer.cs">
+      <DependentUpon>AddTaskSolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Complite.Designer.cs">
+      <DependentUpon>Complite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CompMain.Designer.cs">
+      <DependentUpon>CompMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="ProblemView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProblemView.Designer.cs">
+      <DependentUpon>ProblemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegComp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="RegComp.Designer.cs">
+      <DependentUpon>RegComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegStud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegStud.Designer.cs">
+      <DependentUpon>RegStud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudInf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StudInf.Designer.cs">
+      <DependentUpon>StudInf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StudList.Designer.cs">
+      <DependentUpon>StudList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudMain.Designer.cs">
+      <DependentUpon>StudMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface1.cs" />
+    <Compile Include="LoginComp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginComp.Designer.cs">
+      <DependentUpon>LoginComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Problem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Problem.Designer.cs">
+      <DependentUpon>Problem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProblemList.Designer.cs">
+      <DependentUpon>ProblemList.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Registraition.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Registraition.Designer.cs">
+      <DependentUpon>Registraition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TasksList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TasksList.Designer.cs">
+      <DependentUpon>TasksList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskView.Designer.cs">
+      <DependentUpon>TaskView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginStud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginStud.Designer.cs">
+      <DependentUpon>LoginStud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Task.Designer.cs">
+      <DependentUpon>Task.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddProblem.resx">
+      <DependentUpon>AddProblem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProblemSolution.resx">
+      <DependentUpon>AddProblemSolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTask.resx">
+      <DependentUpon>AddTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTaskSolution.resx">
+      <DependentUpon>AddTaskSolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complite.resx">
+      <DependentUpon>Complite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompMain.resx">
+      <DependentUpon>CompMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemView.resx">
+      <DependentUpon>ProblemView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegComp.resx">
+      <DependentUpon>RegComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegStud.resx">
+      <DependentUpon>RegStud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudInf.resx">
+      <DependentUpon>StudInf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudList.resx">
+      <DependentUpon>StudList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudMain.az-Cyrl.resx">
+      <DependentUpon>StudMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudMain.resx">
+      <DependentUpon>StudMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginComp.resx">
+      <DependentUpon>LoginComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problem.resx">
+      <DependentUpon>Problem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemList.resx">
+      <DependentUpon>ProblemList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Properties\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Registraition.resx">
+      <DependentUpon>Registraition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TasksList.resx">
+      <DependentUpon>TasksList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskView.resx">
+      <DependentUpon>TaskView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginStud.resx">
+      <DependentUpon>LoginStud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task.resx">
+      <DependentUpon>Task.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
