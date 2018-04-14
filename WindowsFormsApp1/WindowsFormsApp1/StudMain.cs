@@ -20,6 +20,7 @@ namespace WindowsFormsApp1
         SqlDataAdapter da2;
         SqlDataAdapter da3;
         DataSet ds = new DataSet();
+        SqlCommand cmd = new SqlCommand();
         public StudMain()
         {
             InitializeComponent();
@@ -55,7 +56,14 @@ namespace WindowsFormsApp1
 
         private void StudMain_Load(object sender, EventArgs e)
         {
-            label1.Text = 
+            cnn = (SqlConnection)conn.getDatabaseConnection("UniDB");
+            cmd.Connection = (SqlConnection)cnn;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "SELECT ФИОСтудента FROM Студент WHERE ФИОСтудента='Мелехин Владислав Юрьевич'";
+            cnn.Open();
+            label1.Text = Convert.ToString(cmd.ExecuteScalar());
+            cnn.Close();
+           
         }
     }
 }
