@@ -35,37 +35,42 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(78, 87);
+            this.richTextBox1.Location = new System.Drawing.Point(104, 107);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(289, 171);
+            this.richTextBox1.Size = new System.Drawing.Size(384, 210);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(78, 319);
+            this.textBox1.Location = new System.Drawing.Point(104, 393);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(182, 20);
+            this.textBox1.Size = new System.Drawing.Size(241, 22);
             this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(358, 359);
+            this.button1.Location = new System.Drawing.Point(477, 442);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 33);
+            this.button1.Size = new System.Drawing.Size(160, 41);
             this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // AddSolution
+            // AddTaskSolution
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.richTextBox1);
-            this.Name = "AddSolution";
-            this.Size = new System.Drawing.Size(535, 425);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "AddTaskSolution";
+            this.Size = new System.Drawing.Size(713, 523);
             this.ResumeLayout(false);
             this.PerformLayout();
 

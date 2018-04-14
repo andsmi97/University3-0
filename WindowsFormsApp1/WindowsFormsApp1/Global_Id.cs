@@ -10,5 +10,7 @@ namespace WindowsFormsApp1
     {
         public static int Stud_ID;
         public static int Comp_ID;
+        public static int Task_ID;
+        public static int Problem_ID;
     }
 }
