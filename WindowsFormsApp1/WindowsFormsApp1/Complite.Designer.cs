@@ -58,6 +58,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Complite";
             this.Size = new System.Drawing.Size(550, 401);
+            this.Load += new System.EventHandler(this.Complite_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
