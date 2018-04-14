@@ -48,7 +48,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.addTask1 = new WindowsFormsApp1.AddTask();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -187,17 +186,11 @@
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
             // 
-            // addTask1
-            // 
-            resources.ApplyResources(this.addTask1, "addTask1");
-            this.addTask1.Name = "addTask1";
-            // 
             // StudMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.addTask1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.SidePanel);
             this.Controls.Add(this.label2);
@@ -240,7 +233,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private AddTask addTask1;
     }
 }
 

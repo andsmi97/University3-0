@@ -29,7 +29,6 @@ namespace WindowsFormsApp1
             cnn1 = conn.GetDatabeseConnection("UniDB");
             cmd.Connection = (SqlConnection)cnn1;
             cmd.CommandType = CommandType.Text;
-            Global_Id.Comp_ID = 1;
         }
 
         private void button1_Click(object sender, EventArgs e)
