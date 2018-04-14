@@ -59,9 +59,10 @@ namespace WindowsFormsApp1
             cnn = (SqlConnection)conn.getDatabaseConnection("UniDB");
             cmd.Connection = (SqlConnection)cnn;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT ФИОСтудента FROM Студент WHERE ФИОСтудента='Мелехин Владислав Юрьевич'";
+            cmd.Parameters.AddWithValue("@StudID", Gloal_ID.Stud_ID);
+            cmd.CommandText = "SELECT ФИОСтудента FROM Студент WHERE ИД_Студента=@StudID";
             cnn.Open();
-            label1.Text = Convert.ToString(cmd.ExecuteScalar());
+            label3.Text = Convert.ToString(cmd.ExecuteScalar());
             cnn.Close();
            
         }
