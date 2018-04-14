@@ -8,6 +8,7 @@ create table Задача (
    СтатусЗадачи         bit                  not null,
    ЦенаЗадачи           float                not null,
    ОписаниеЗадачи       varchar(5000)        not null,
+   НазваниеЗадачи       varchar(100)         not null,
    constraint PK_ЗАДАЧА primary key (ИД_задачи)
 )
 go
@@ -112,6 +113,7 @@ create table Проблема (
    ЦенаПроблемы         float                not null,
    СтатусПроблемы       bit                  not null,
    ОписаниеПроблемы     varchar(5000)        not null,
+   НазваниеПроблемы     varchar(100)         not null,
    constraint PK_ПРОБЛЕМА primary key (ИД_Проблемы)
 )
 go
