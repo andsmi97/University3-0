@@ -60,18 +60,20 @@
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(675, 22);
+            this.panel4.Location = new System.Drawing.Point(900, 27);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(164, 461);
+            this.panel4.Size = new System.Drawing.Size(219, 567);
             this.panel4.TabIndex = 10;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label7.Location = new System.Drawing.Point(17, 163);
+            this.label7.Location = new System.Drawing.Point(23, 201);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(46, 17);
             this.label7.TabIndex = 0;
             this.label7.Text = "label3";
             // 
@@ -79,9 +81,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label6.Location = new System.Drawing.Point(17, 123);
+            this.label6.Location = new System.Drawing.Point(23, 151);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(46, 17);
             this.label6.TabIndex = 0;
             this.label6.Text = "label3";
             // 
@@ -89,9 +92,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(17, 87);
+            this.label5.Location = new System.Drawing.Point(23, 107);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(46, 17);
             this.label5.TabIndex = 0;
             this.label5.Text = "label3";
             // 
@@ -99,9 +103,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(17, 57);
+            this.label4.Location = new System.Drawing.Point(23, 70);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(46, 17);
             this.label4.TabIndex = 0;
             this.label4.Text = "label3";
             // 
@@ -109,18 +114,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(17, 33);
+            this.label3.Location = new System.Drawing.Point(23, 41);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(46, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "label3";
             // 
             // SidePanel
             // 
             this.SidePanel.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.SidePanel.Location = new System.Drawing.Point(0, 63);
+            this.SidePanel.Location = new System.Drawing.Point(0, 78);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(4);
             this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(16, 59);
+            this.SidePanel.Size = new System.Drawing.Size(21, 73);
             this.SidePanel.TabIndex = 8;
             // 
             // label2
@@ -129,9 +136,10 @@
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 18F);
             this.label2.ForeColor = System.Drawing.Color.DarkBlue;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(417, 36);
+            this.label2.Location = new System.Drawing.Point(556, 44);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 32);
+            this.label2.Size = new System.Drawing.Size(244, 41);
             this.label2.TabIndex = 9;
             this.label2.Text = "Университет 3.0";
             // 
@@ -140,9 +148,10 @@
             this.panel3.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(245, 0);
+            this.panel3.Location = new System.Drawing.Point(327, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(156, 171);
+            this.panel3.Size = new System.Drawing.Size(208, 210);
             this.panel3.TabIndex = 7;
             // 
             // label1
@@ -151,9 +160,10 @@
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkBlue;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(3, 74);
+            this.label1.Location = new System.Drawing.Point(4, 91);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 84);
+            this.label1.Size = new System.Drawing.Size(189, 104);
             this.label1.TabIndex = 3;
             this.label1.Text = "Государственный\r\nуниверситет\r\nаэрокосмического\r\nприборостроения";
             // 
@@ -161,9 +171,10 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(7, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(132, 62);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -172,9 +183,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(200, 0);
+            this.panel2.Location = new System.Drawing.Point(267, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(639, 22);
+            this.panel2.Size = new System.Drawing.Size(852, 27);
             this.panel2.TabIndex = 6;
             // 
             // panel1
@@ -186,8 +198,9 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 483);
+            this.panel1.Size = new System.Drawing.Size(267, 594);
             this.panel1.TabIndex = 5;
             // 
             // button3
@@ -199,9 +212,10 @@
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(22, 258);
+            this.button3.Location = new System.Drawing.Point(29, 318);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(175, 59);
+            this.button3.Size = new System.Drawing.Size(233, 73);
             this.button3.TabIndex = 0;
             this.button3.Text = "Студенты";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -216,9 +230,10 @@
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(22, 193);
+            this.button4.Location = new System.Drawing.Point(29, 238);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(175, 59);
+            this.button4.Size = new System.Drawing.Size(233, 73);
             this.button4.TabIndex = 0;
             this.button4.Text = "Задачи";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -233,9 +248,10 @@
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(22, 128);
+            this.button2.Location = new System.Drawing.Point(29, 158);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(175, 59);
+            this.button2.Size = new System.Drawing.Size(233, 73);
             this.button2.TabIndex = 0;
             this.button2.Text = "Проблемы";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -250,9 +266,10 @@
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(22, 63);
+            this.button1.Location = new System.Drawing.Point(29, 78);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 59);
+            this.button1.Size = new System.Drawing.Size(233, 73);
             this.button1.TabIndex = 0;
             this.button1.Text = "Главная";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -260,15 +277,16 @@
             // 
             // CompMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(839, 483);
+            this.ClientSize = new System.Drawing.Size(1119, 594);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.SidePanel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CompMain";
             this.Text = "CompMain";
             this.panel4.ResumeLayout(false);

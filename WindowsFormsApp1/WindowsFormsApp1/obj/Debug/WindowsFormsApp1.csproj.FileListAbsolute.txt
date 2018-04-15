@@ -96,4 +96,3 @@ Z:\Репозиторий\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\De
 Z:\Репозиторий\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
 Z:\Репозиторий\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 Z:\Репозиторий\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-Z:\Репозиторий\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
