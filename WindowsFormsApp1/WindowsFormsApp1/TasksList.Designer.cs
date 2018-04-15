@@ -68,6 +68,7 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "TasksList";
             this.Size = new System.Drawing.Size(596, 452);
+            this.Load += new System.EventHandler(this.TasksList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
