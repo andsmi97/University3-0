@@ -67,12 +67,10 @@ G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Win
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
-G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddProblem.resources
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddProblemSolution.resources
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddTask.resources
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddTaskSolution.resources
-G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Complite.resources
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CompMain.resources
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProblemView.resources
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RegComp.resources
@@ -97,3 +95,6 @@ G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Win
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\az-Cyrl\WindowsFormsApp1.resources.dll
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Complete.resources
+G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Complete1.resources
+G:\IOT\1st_Project\University3-0\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache

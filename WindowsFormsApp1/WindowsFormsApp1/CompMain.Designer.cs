@@ -46,6 +46,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.problemList1 = new WindowsFormsApp1.ProblemList();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -258,11 +259,19 @@
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // problemList1
+            // 
+            this.problemList1.Location = new System.Drawing.Point(236, 185);
+            this.problemList1.Name = "problemList1";
+            this.problemList1.Size = new System.Drawing.Size(525, 412);
+            this.problemList1.TabIndex = 11;
+            // 
             // CompMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 483);
+            this.Controls.Add(this.problemList1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.SidePanel);
             this.Controls.Add(this.label2);
@@ -271,6 +280,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "CompMain";
             this.Text = "CompMain";
+            this.Load += new System.EventHandler(this.CompMain_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -301,5 +311,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private ProblemList problemList1;
     }
 }

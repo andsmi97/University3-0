@@ -58,7 +58,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(68, 180);
+            this.label4.Location = new System.Drawing.Point(65, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 9;
@@ -94,7 +94,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(479, 110);
+            this.label6.Location = new System.Drawing.Point(476, 111);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 12;
@@ -113,6 +113,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Problem";
             this.Size = new System.Drawing.Size(577, 449);
+            this.Load += new System.EventHandler(this.Problem_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

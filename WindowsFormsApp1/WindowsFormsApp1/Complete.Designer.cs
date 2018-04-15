@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Complite
+    partial class Complete
     {
         /// <summary> 
         /// Обязательная переменная конструктора.

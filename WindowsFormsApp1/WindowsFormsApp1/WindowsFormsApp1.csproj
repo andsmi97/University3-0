@@ -73,11 +73,17 @@
     <Compile Include="AddTaskSolution.Designer.cs">
       <DependentUpon>AddTaskSolution.cs</DependentUpon>
     </Compile>
-    <Compile Include="Complite.cs">
+    <Compile Include="Complete.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Complite.Designer.cs">
-      <DependentUpon>Complite.cs</DependentUpon>
+    <Compile Include="Complete.Designer.cs">
+      <DependentUpon>Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complete1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Complete1.Designer.cs">
+      <DependentUpon>Complete1.cs</DependentUpon>
     </Compile>
     <Compile Include="CompMain.cs">
       <SubType>Form</SubType>
@@ -203,8 +209,11 @@
     <EmbeddedResource Include="AddTaskSolution.resx">
       <DependentUpon>AddTaskSolution.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Complite.resx">
-      <DependentUpon>Complite.cs</DependentUpon>
+    <EmbeddedResource Include="Complete.resx">
+      <DependentUpon>Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complete1.resx">
+      <DependentUpon>Complete1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CompMain.resx">
       <DependentUpon>CompMain.cs</DependentUpon>

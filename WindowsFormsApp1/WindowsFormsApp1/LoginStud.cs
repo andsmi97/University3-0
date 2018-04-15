@@ -14,9 +14,10 @@ namespace WindowsFormsApp1
 {
     public partial class LoginStud : UserControl
     {
-        DataBaseConnection conn = new DataBaseConnection();
-        DbConnection cnn;
+        //DataBaseConnection conn = new DataBaseConnection();
+        //DbConnection cnn;
         SqlCommand cmd = new SqlCommand();
+        SqlConnection cnn = new SqlConnection();
 
         public LoginStud()
         {
@@ -27,7 +28,8 @@ namespace WindowsFormsApp1
         {
        
 
-            cnn = conn.getDatabaseConnection("UniDB");
+            //cnn = conn.getDatabaseConnection("UniDB");
+            cnn.ConnectionString = "Data Source=DESKTOP-UGM0GFJ\\ANDREW;Initial Catalog=Uni3;Integrated Security=True";
             cmd.Connection = (SqlConnection)cnn;
 
             cmd.Parameters.Add("@login", SqlDbType.Text);
@@ -58,6 +60,11 @@ namespace WindowsFormsApp1
         private void button3_Click(object sender, EventArgs e)
         {
             this.Visible = false; 
+        }
+
+        private void LoginStud_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
