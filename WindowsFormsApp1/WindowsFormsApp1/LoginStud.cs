@@ -14,23 +14,16 @@ namespace WindowsFormsApp1
 {
     public partial class LoginStud : UserControl
     {
-        //DataBaseConnection conn = new DataBaseConnection();
-        //DbConnection cnn;
-        SqlCommand cmd = new SqlCommand();
-        SqlConnection cnn = new SqlConnection();
-
         public LoginStud()
         {
             InitializeComponent();
         }
-
+        SqlCommand cmd = new SqlCommand();
+        SqlConnection cnn1 = new SqlConnection();
         private void button1_Click(object sender, EventArgs e)
         {
-       
-
-            //cnn = conn.getDatabaseConnection("UniDB");
-            cnn.ConnectionString = "Data Source=DESKTOP-UGM0GFJ\\ANDREW;Initial Catalog=Uni3;Integrated Security=True";
-            cmd.Connection = (SqlConnection)cnn;
+            cnn1.ConnectionString = "Data Source=DESKTOP-5R6MQVO\\ALINA;Initial Catalog=Uni3;Integrated Security=True";
+            cmd.Connection = (SqlConnection)cnn1;
 
             cmd.Parameters.Add("@login", SqlDbType.Text);
             cmd.Parameters.Add("@password", SqlDbType.Text);
@@ -39,32 +32,31 @@ namespace WindowsFormsApp1
 
             cmd.CommandText = "SELECT ИД_Студента FROM Студент WHERE CONVERT(VARCHAR, ЛогинСтудента) = CONVERT(VARCHAR, @login) AND CONVERT(VARCHAR, ПарольСтудента) = CONVERT(VARCHAR, @password)";
 
-            cnn.Open();
-            if (cmd.ExecuteNonQuery() != 0)
+            cnn1.Open();
+            string ID_st = Convert.ToString(cmd.ExecuteScalar());
+            if (ID_st != "")
             {
-                Gloal_ID.Stud_ID = Convert.ToInt32(cmd.ExecuteScalar());
-                label1.Text = "Value has been inserted";
+                Global_ID.Stud_ID = Convert.ToInt32(cmd.ExecuteScalar());
+                //label2.Text = "Value has been inserted";
+                StudMain ds = new StudMain();
+                ds.Show();
+                this.ParentForm.Visible = false;
             }
             else
             {
-                label1.Text = "Error";
+                label3.Text = "Неверный логин или пароль";
             }
-            cnn.Close();
-
+            cnn1.Close();
             StudMain DataSet = new StudMain();
             DataSet.Show();
-            this.ParentForm.Visible = false;
-           // DataSet.StartPosition = FormStartPosition.CenterScreen;
+            this.Hide();
+            //this.ParentForm.Visible = false;
         }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Visible = false; 
-        }
-
-        private void LoginStud_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -28,90 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.uni3DataSet = new WindowsFormsApp1.Uni3DataSet();
-            this.проблемаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.проблемаTableAdapter = new WindowsFormsApp1.Uni3DataSetTableAdapters.ПроблемаTableAdapter();
-            this.проблемаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.problem1 = new WindowsFormsApp1.Problem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.uni3DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.проблемаBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.проблемаBindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(400, 364);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 31);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 63);
+            this.dataGridView1.Location = new System.Drawing.Point(17, 91);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(414, 250);
+            this.dataGridView1.Size = new System.Drawing.Size(420, 237);
             this.dataGridView1.TabIndex = 4;
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 17);
+            this.comboBox1.Location = new System.Drawing.Point(17, 32);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(168, 28);
             this.comboBox1.TabIndex = 3;
             // 
-            // uni3DataSet
+            // label1
             // 
-            this.uni3DataSet.DataSetName = "Uni3DataSet";
-            this.uni3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(172, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Выберите направление";
             // 
-            // проблемаBindingSource
+            // label2
             // 
-            this.проблемаBindingSource.DataMember = "Проблема";
-            this.проблемаBindingSource.DataSource = this.uni3DataSet;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label2.Location = new System.Drawing.Point(13, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(189, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Список текущих проблем";
             // 
-            // проблемаTableAdapter
+            // button1
             // 
-            this.проблемаTableAdapter.ClearBeforeFill = true;
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.button1.FlatAppearance.BorderSize = 3;
+            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(285, 346);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 36);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Узнать подробнее";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // проблемаBindingSource1
+            // problem1
             // 
-            this.проблемаBindingSource1.DataMember = "Проблема";
-            this.проблемаBindingSource1.DataSource = this.uni3DataSet;
+            this.problem1.Location = new System.Drawing.Point(0, 0);
+            this.problem1.Name = "problem1";
+            this.problem1.Size = new System.Drawing.Size(452, 406);
+            this.problem1.TabIndex = 8;
             // 
             // ProblemList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.problem1);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox1);
             this.Name = "ProblemList";
-            this.Size = new System.Drawing.Size(525, 412);
+            this.Size = new System.Drawing.Size(452, 406);
             this.Load += new System.EventHandler(this.ProblemList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.uni3DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.проблемаBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.проблемаBindingSource1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private Uni3DataSet uni3DataSet;
-        private System.Windows.Forms.BindingSource проблемаBindingSource;
-        private Uni3DataSetTableAdapters.ПроблемаTableAdapter проблемаTableAdapter;
-        private System.Windows.Forms.BindingSource проблемаBindingSource1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private Problem problem1;
     }
 }

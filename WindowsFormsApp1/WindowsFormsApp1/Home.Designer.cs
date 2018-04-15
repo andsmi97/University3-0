@@ -97,7 +97,7 @@
             // 
             this.home1.BackColor = System.Drawing.SystemColors.Control;
             this.home1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.home1.Location = new System.Drawing.Point(227, 65);
+            this.home1.Location = new System.Drawing.Point(223, 65);
             this.home1.Name = "home1";
             this.home1.Size = new System.Drawing.Size(600, 411);
             this.home1.TabIndex = 5;
@@ -114,6 +114,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Университет 3.0";

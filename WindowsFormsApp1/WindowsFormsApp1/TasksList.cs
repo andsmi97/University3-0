@@ -15,11 +15,12 @@ namespace WindowsFormsApp1
         public TasksList()
         {
             InitializeComponent();
+            task1.Visible = false;
         }
 
-        private void TasksList_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            task1.Visible = true;
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms;
 using System.Data.Common;
 using System.Data.SqlClient;
 
@@ -18,9 +19,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        DataBaseConnection conn = new DataBaseConnection();
-        DbConnection cnn;
+
         SqlCommand cmd = new SqlCommand();
+        SqlConnection cnn1 = new SqlConnection();
+
         private void button3_Click(object sender, EventArgs e)
         {
             this.Visible = false;
@@ -28,30 +30,36 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cnn = conn.getDatabaseConnection("UniDB");
-            cmd.Connection = (SqlConnection)cnn;
+            cnn1.ConnectionString = "Data Source=DESKTOP-5R6MQVO\\ALINA;Initial Catalog=Uni3;Integrated Security=True";
+            cmd.Connection = (SqlConnection)cnn1;
 
             cmd.Parameters.Add("@login", SqlDbType.Text);
             cmd.Parameters.Add("@password", SqlDbType.Text);
             cmd.Parameters["@login"].Value = textBox1.Text;
             cmd.Parameters["@password"].Value = textBox2.Text;
 
-            cmd.CommandText = "SELECT ИД_Компании FROM Компания WHERE CONVERT(VARCHAR, ЛогинКомпании) = CONVERT(VARCHAR, @login) AND CONVERT(VARCHAR, ПарольКомпании) = CONVERT(VARCHAR, @password)";
+            cmd.CommandText = "SELECT ИД_компании FROM Компания WHERE CONVERT(VARCHAR, ЛогинКомпании) = CONVERT(VARCHAR, @login) AND CONVERT(VARCHAR, ПарольКомпании) = CONVERT(VARCHAR, @password)";
 
-            cnn.Open();
-            if (cmd.ExecuteNonQuery() != 0)
+            cnn1.Open();
+            string ID_st = Convert.ToString(cmd.ExecuteScalar());
+            if (ID_st != "")
             {
-                Gloal_ID.Comp_ID = Convert.ToInt32(cmd.ExecuteScalar());
-                label1.Text = "Value has been inserted";
+                Global_ID.Comp_ID = Convert.ToInt32(cmd.ExecuteScalar());
+                //label2.Text = "Value has been inserted";
+                CompMain DataSet = new CompMain();
+                DataSet.Show();
+                this.ParentForm.Visible = false;
             }
             else
             {
-                label1.Text = "Error";
+                label3.Text = "Неверный логин или пароль";
             }
-            CompMain DataSet = new CompMain();
-            DataSet.Show();
-            this.ParentForm.Visible = false;
-            cnn.Close();
+            cnn1.Close();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        { 
+            this.Visible = false;
         }
     }
 }

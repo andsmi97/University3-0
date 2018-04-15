@@ -15,6 +15,12 @@ namespace WindowsFormsApp1
         public TaskView()
         {
             InitializeComponent();
+            addTask1.Visible = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            addTask1.Visible = true;
         }
     }
 }

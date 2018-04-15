@@ -13,37 +13,42 @@ namespace WindowsFormsApp1
 {
     public partial class Problem : UserControl
     {
-        DataBaseConnection conn = new DataBaseConnection();
-        DbConnection cnn;
+
+        SqlCommand cmd = new SqlCommand();
+        SqlConnection cnn = new SqlConnection();
         SqlDataAdapter da1;
         SqlDataAdapter da2;
         SqlDataAdapter da3;
         DataSet ds = new DataSet();
-        SqlCommand cmd = new SqlCommand();
         public Problem()
         {
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+        }
+
         private void Problem_Load(object sender, EventArgs e)
         {
-            cnn = (SqlConnection)conn.getDatabaseConnection("UniDB");
+            cnn.ConnectionString = "Data Source=DESKTOP-5R6MQVO\\ALINA;Initial Catalog=Uni3;Integrated Security=True";
             cmd.Connection = (SqlConnection)cnn;
             cmd.CommandType = CommandType.Text;
-            cmd.Parameters.AddWithValue("@StudID", Gloal_ID.Stud_ID);
+            cmd.Parameters.AddWithValue("@ProblemID", Global_ID.Problem_ID);
+
 
             cnn.Open();
-            cmd.CommandText = "SELECT ФИОСтудента FROM Студент WHERE ИД_Студента=@StudID";
+            cmd.CommandText = "SELECT НазваниеПроблемы FROM Проблема WHERE ИД_Проблемы=@ProblemID";
+            label1.Text = Convert.ToString(cmd.ExecuteScalar());
+            cmd.CommandText = "SELECT НаправлениеПроблемы FROM Проблема WHERE ИД_Проблемы=@ProblemID";
+            label2.Text = Convert.ToString(cmd.ExecuteScalar());
+            cmd.CommandText = "SELECT ЦенаПроблемы FROM Проблема WHERE ИД_Проблемы=@ProblemID";
             label3.Text = Convert.ToString(cmd.ExecuteScalar());
-            cmd.CommandText = "SELECT Курс FROM Студент WHERE ИД_Студента=@StudID";
+            cmd.CommandText = "SELECT ОписаниеПроблемы FROM Проблема WHERE ИД_Проблемы=@ProblemID";
             label4.Text = Convert.ToString(cmd.ExecuteScalar());
-            cmd.CommandText = "SELECT Факультет FROM Студент WHERE ИД_Студента=@StudID";
-            label5.Text = Convert.ToString(cmd.ExecuteScalar());
-            cmd.CommandText = "SELECT Направление FROM Студент WHERE ИД_Студента=@StudID";
-            label6.Text = Convert.ToString(cmd.ExecuteScalar());
-            cmd.CommandText = "SELECT EmailСтудента FROM Студент WHERE ИД_Студента=@StudID";
-            cnn.Close();
 
+            cnn.Close();
         }
     }
 }
